@@ -1,4 +1,4 @@
-package com.ugur.browser;
+package com.sterp.tpao;
 
 import org.junit.Test;
 

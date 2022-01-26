@@ -1,4 +1,4 @@
-package com.ugur.browser;
+package com.sterp.tpao;
 
 import android.content.Context;
 
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
-/**
+/**F
  * Instrumented test, which will execute on an Android device.
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.ugur.browser", appContext.getPackageName());
+        assertEquals("com.sterp.tpao", appContext.getPackageName());
     }
 }

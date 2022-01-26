@@ -1,11 +1,9 @@
-package com.ugur.browser;
+package com.sterp.tpao;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
@@ -14,7 +12,7 @@ import android.webkit.WebViewClient;
 public class BrowserActivity extends AppCompatActivity {
 
     final AppCompatActivity activity = this;
-    public final static String URL = "https://www.google.com/";
+    public final static String URL = "http://st-erp.com:84/";
 
     WebView webview;
 
